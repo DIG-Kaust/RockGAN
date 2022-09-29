@@ -2,7 +2,7 @@
 
 Reproducible material for **A Wasserstein GAN with gradient penalty for 3D porous media generation. \
 Corrales M.,  Izzatullah M., Hoteit H., and Ravasi M.** \
-submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
+Submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
 
 
 ## Project structure
