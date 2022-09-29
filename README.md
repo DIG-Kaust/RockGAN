@@ -1,7 +1,8 @@
-![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
+![LOGO](https://github.com/DIG-Kaust/RockGAN/blob/main/logo.png)  
 
-Reproducible material for **XXX -
-Ravasi M., Author M., Author C.** submitted to XXX.
+Reproducible material for **A Wasserstein GAN with gradient penalty for 3D porous media generation. \
+Corrales M.,  Izzatullah M., Hoteit H., and Ravasi M.** \
+submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
 
 
 ## Project structure
