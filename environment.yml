@@ -1,0 +1,36 @@
+name: rockgan
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.8
+  - pytorch>=1.12.0
+  - pip
+  - numpy>=1.22.3
+  - scipy>=1.7.3
+  - cudatoolkit=11.3
+  - matplotlib
+  - ipython
+  - jupyter
+  - tqdm >= 4.64.0
+  - openpnm>=2.8.0
+  - porespy>=2.0
+  - pyvista>=0.34.2
+  - setuptools>=61.2.0
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - pip:
+    - torchsummary
+    - quantimpy>=0.4.6
+    - cupy-cuda113
+
+    
+    
+    
+    
+    
+    
+    
+    
