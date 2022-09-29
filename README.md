@@ -55,5 +55,6 @@ configurations may be required for different combinations of workstation and GPU
 - Gostick J, Khan ZA, Tranter TG, Kok MDR, Agnaou M, Sadeghi MA, Jervis R. PoreSpy: A Python Toolkit for Quantitative Analysis of Porous Media Images. Journal of Open Source Software, 2019. doi:10.21105/joss.01296 [https://github.com/PMEAL/porespy]
 - Gostick et al. "OpenPNM: a pore network modeling package." Computing in Science & Engineering 18, no. 4 (2016): 60-74. doi:10.1109/MCSE.2016.49 [https://github.com/PMEAL/OpenPNM]
 - Arnout M.P. Boelens, and Hamdi A. Tchelepi, QuantImPy: Minkowski functionals and functions with Python, SoftwareX, Volume 16, 2021, 100823, ISSN 2352-7110, doi: 10.1016/j.softx.2021.100823 [https://github.com/boeleman/quantimpy]
+- Mosser, L., Dubrule, O., & Blunt, M. J. (2017). Reconstruction of three-dimensional porous media using generative adversarial neural networks [https://github.com/LukasMosser/PorousMediaGan]
 
 ## Did you find this repository useful? Please cite us
