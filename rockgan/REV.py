@@ -25,8 +25,6 @@ def porosity(img):
     
     return phi_computed
 
-
-
 def patches_3D(img, ks=128, stride=64):
     r"""
     Generates a number of subtaches of a 3D porous media.
