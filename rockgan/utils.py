@@ -66,7 +66,6 @@ def load_checkpoint(checkpoint_file, model, optimizer, lr):
     for param_group in optimizer.param_groups:
         param_group["lr"] = lr
         
-
 class MyLoader(Dataset):
     """
     Prepare dataset for data loader
@@ -83,7 +82,6 @@ class MyLoader(Dataset):
 
     def __getitem__(self, item):
         return self.data[item, ...].squeeze()
-
 
 def porosity(phi):
     r"""
