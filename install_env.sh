@@ -6,12 +6,12 @@
 # 
 # M. Ravasi, 24/05/2022
 
-echo 'Creating my_env environment'
+echo 'Creating rockgan environment'
 
 # create conda env
 conda env create -f environment.yml
 source ~/miniconda3/etc/profile.d/conda.sh
-conda activate my_env
+conda activate rockgan
 conda env list
 echo 'Created and activated environment:' $(which python)
 
