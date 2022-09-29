@@ -5,31 +5,37 @@ def src(pth):
     return os.path.join(os.path.dirname(__file__), pth)
 
 # Project description
-descr = 'My project description.'
+descr = 'RockGAN'
 
 setup(
-    name="package", # Choose your package name
+    name="rockgan", # Choose your package name
     description=descr,
     long_description=open(src('README.md')).read(),
-    keywords=['inverse problems',
+    keywords=['GAN',
               'deep learning',
-              'seismic'],
+              'porous-media'],
     classifiers=[
         'Intended Audience :: Science/Research',
         'Natural Language :: English',
         'Programming Language :: Python :: 3.8',
-        'Programming Language :: Python :: 3.9',
         'Topic :: Scientific/Engineering :: Mathematics'
     ],
-    author='Matteo Ravasi, Second author, Third author',
-    author_email='matteo.ravasi@kaust.edu.sa, second.auth@kaust.edu.sa, third.auth@kaust.edu.sa',
-    install_requires=['numpy >= 1.15.0',
-                      'torch >= 1.2.0',
-                      'pylops >= 1.17.0'],
-    packages=find_packages(),
+    author='Miguel Corrales, Muhammad Izzatulah ,Matteo Ravasi',
+    author_email='miguel.corrales@kaust.edu.sa, muhammad.izzatulah@kaust.edu.sa, matteo.ravasi@kaust.edu.sa',
+    install_requires=['numpy >= 1.22.3',
+                      'torch >= 1.12.0',
+                      'scipy >= 1.7.3',
+                      'tqdm >= 4.64.0',
+                      'porespy >= 2.0',
+                      'setuptools >= 61.2.0',
+                      'openpnm >= 2.8.0',
+                      'scikit-image >= 0.19.0',
+                      'scikit-learn >= 1.0.1',
+                      'quantimpy >= 0.4.6'],
+    packages=find_packages(exclude=['pytests']),
     use_scm_version=dict(root='.',
                          relative_to=__file__,
-                         write_to=src('package/version.py')),
+                         write_to=src('rockgan/version.py')),
     setup_requires=['setuptools_scm'],
 
 )
