@@ -1,0 +1,2 @@
+- The models correspond to the RockGAN formulation corresponds to: ''...no_poro_V2''
+- The models correspond to the CRockGAN formulation corresponds to: ''...poro_v4''
