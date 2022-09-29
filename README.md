@@ -1,8 +1,7 @@
-![LOGO](https://github.com/DIG-Kaust/RockGAN/blob/main/logo.png)  
+![LOGO](https://github.com/DIG-Kaust/Project_Template/blob/master/logo.png)
 
-Reproducible material for **A Wasserstein GAN with gradient penalty for 3D porous media generation. \
-Corrales M.,  Izzatullah M., Hoteit H., and Ravasi M.** \
-submitted to Second EAGE Subsurface Intelligence Workshop, 28-31 October 2022, Manama, Bahrain
+Reproducible material for **XXX -
+Ravasi M., Author M., Author C.** submitted to XXX.
 
 
 ## Project structure
@@ -38,7 +37,7 @@ pip install -e .
 
 Remember to always activate the environment by typing:
 ```
-conda activate my_env
+conda activate rockgan
 ```
 
 Finally, to run tests simply type:
