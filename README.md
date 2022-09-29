@@ -54,5 +54,6 @@ configurations may be required for different combinations of workstation and GPU
 ## References
 - Gostick J, Khan ZA, Tranter TG, Kok MDR, Agnaou M, Sadeghi MA, Jervis R. PoreSpy: A Python Toolkit for Quantitative Analysis of Porous Media Images. Journal of Open Source Software, 2019. doi:10.21105/joss.01296
 - Gostick et al. "OpenPNM: a pore network modeling package." Computing in Science & Engineering 18, no. 4 (2016): 60-74. doi:10.1109/MCSE.2016.49
+- Arnout M.P. Boelens, and Hamdi A. Tchelepi, QuantImPy: Minkowski functionals and functions with Python, SoftwareX, Volume 16, 2021, 100823, ISSN 2352-7110, doi: 10.1016/j.softx.2021.100823
 
 
