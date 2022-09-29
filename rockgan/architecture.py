@@ -4,9 +4,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from torch.nn.utils   import spectral_norm 
 from torchsummary import summary
-
-
-        
+     
 class Generator(torch.nn.Module):
     def __init__(self, in_channel=1, out_channel=1):
         
@@ -36,8 +34,7 @@ class Generator(torch.nn.Module):
     def forward(self, z):
         # z dim: Bx16x16x16
         return self.conv_net(z)
-    
-    
+       
 class Discriminator(torch.nn.Module):
     def __init__(self, in_channel=1, out_channel=1):
         
