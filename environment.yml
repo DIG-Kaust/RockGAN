@@ -25,6 +25,7 @@ dependencies:
     - torchsummary
     - quantimpy>=0.4.6
     - cupy-cuda113
+    - ipyvtklink
 
     
     
