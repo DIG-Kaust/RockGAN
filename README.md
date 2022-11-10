@@ -59,3 +59,19 @@ configurations may be required for different combinations of workstation and GPU
 
 
 ## Did you find this repository useful? Please cite us
+```
+@article{eage:/content/papers/10.3997/2214-4609.2022616005,
+   author = "Corrales, M. and Izzatullah, M. and Hoteit, H. and Ravasi, M.",
+   title = "A Wasserstein GAN with Gradient Penalty for 3D Porous Media Generation.", 
+   journal= "",
+   year = "2022",
+   volume = "2022",
+   number = "1",
+   pages = "1-5",
+   doi = "https://doi.org/10.3997/2214-4609.2022616005",
+   url = "https://www.earthdoc.org/content/papers/10.3997/2214-4609.2022616005",
+   publisher = "European Association of Geoscientists &amp; Engineers",
+   issn = "2214-4609",
+   type = "",
+  }
+```
