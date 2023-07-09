@@ -22,4 +22,8 @@ package/version.py
 
 # Development #
 .ipynb_checkpoints/
+notebooks/08_Video.ipynb
+
+#big data
+data/Berea_subpatches.npy
 
